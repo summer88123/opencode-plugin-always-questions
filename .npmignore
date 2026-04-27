@@ -1,0 +1,10 @@
+src/
+tests/
+test/
+.vscode/
+.idea/
+.github/
+*.ts
+*.map
+tsconfig.json
+*.log
