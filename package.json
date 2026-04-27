@@ -1,0 +1,31 @@
+{
+  "name": "opencode-plugin-always-questions",
+  "version": "1.0.0",
+  "scripts": {
+    "publish": "npm publish --access public"
+  },
+  "description": "An OpenCode plugin that appends a fixed suffix to system prompts and user messages, requiring the AI to ask what to do next after completing each task.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "README.md"
+  ],
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "plugin",
+    "prompt",
+    "questions"
+  ],
+  "author": "",
+  "license": "MIT",
+  "peerDependencies": {
+    "@opencode-ai/plugin": "*"
+  },
+  "devDependencies": {
+    "@opencode-ai/plugin": "latest",
+    "typescript": "^5.0.0"
+  }
+}
